@@ -23,7 +23,7 @@ build-backend = 'poetry.core.masonry.api'
 enable = true
 
 [tool.poetry.dependencies]
-python = '^3.8, <3.12'
+python = '^3.8, <=3.12'
 appdirs = '*'
 dunamai = { version = '*', optional = true }
 geopandas = '*'
@@ -37,7 +37,7 @@ pooch = '*'
 psutil = '*'
 pyproj = '>=2.6'
 requests = '*'
-scipy = '<=1.12'
+scipy = '>=1.13'
 searvey = '*'
 shapely = '*'
 stormevents = '>=2.3.2' # tests results based on speed fix
